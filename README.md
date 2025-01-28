@@ -1,6 +1,6 @@
 # Financial_Approval_Dashboard
 
-#### i. **Introduction**
+### i. **Introduction**
 
 The Central Bank of Malaysia (Bank Negara Malaysia, BNM) champions the Financial Inclusion initiatives with the vision of building an inclusive financial system. This initiative ensures equitable access to affordable, high-quality financial services for all Malaysians, particularly underserved communities. Financial inclusion plays a vital role in promoting shared prosperity and economic development by empowering individuals and small businesses to engage actively in the financial ecosystem.
 
