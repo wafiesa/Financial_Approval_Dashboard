@@ -8,7 +8,7 @@ One of many substantial contributions that have supported the growing number of 
 
 ---
 
-#### ii. **Financial Outlook for SMEs**
+### ii. **Financial Outlook for SMEs**
 
 The Small and Medium Enterprises (SMEs) are important to Malaysia’s economic growth, contributing significantly to employment and Gross Domestic Product (GDP). Financial inclusion for SMEs is essential to enable their participation in competitive markets. Challenges such as limited access to credit, high borrowing costs and knowledge gaps in navigating financial products hinder SMEs’ growth potential.
 
@@ -25,7 +25,7 @@ The strageties from BNM has put inplace a financial inclusion report from FIs as
 
 ---
 
-#### iii. **Dataset Information**
+### iii. **Dataset Information**
 
 The dataset from BNM Financial Inclusion, titled "1.12_Approvals_by_Sector" which can be obtained from https://www.bnm.gov.my/financial-inclusion-data-for-malaysia  includes data on financing approvals across various economic sectors.
 
@@ -57,26 +57,27 @@ The key components in the dataset include:
 
 ---
 
-#### iv. **Time Series Dashboard**
+#### iv. **Financial Approvals Dashboard**
 
 1. **About The Dashboard**:
    - This dashboard provides an overview of financing approvals for SMEs categorised by Financial Institutions (FIs).
    - The data was acquired from the website of the Central Bank of Malaysia (BNM) to perform time series analysis on the financing approvals for 16 economic sectors.
 
-2. **data Overview**:
-   - Displays the overall data on the Economic Sectors as well as Financial Institutions.
-   - 
-3. **Time Series Visualisation**:
-   - Produces time series plots from the dataset, allowing the user to select an Economic Sector and a Financial Institution.
-   - The plot regenerates automatically when the selection is made by the user.
+2. **Data Overview**:
+   - Data Overview Tab displays an overview of the dataset, including details of economic sectors and financial institutions.
+   - It uses the 1.12_Approvals_by_Sector dataset from BNM. Several data cleaning steps have been applied to make the raw dataset compatible with this dashboard. Future users can use the same dataset (1.12_Approvals_by_Sector) without additional preparation.
 
+3. **Time Series Visualisation**:
+   - Produces time series plots from the dataset, allowing users to select an economic sector and financial institution.
+   - It provides insights into trends, seasonality and random fluctuations within the time series data.
+     
 4. **Forecasting**:
-   - Displays forecast plots for selected Economic Sectors, Financial Institutions, and Forecast Models. Additionally, users can improve the forecasting model by adjusting the Frequency and Period.
-   - The forecasting plot regenerates automatically when these settings are redefined.
+   - Displays forecast plots for a selected economic sector and financial institution using the Auto ARIMA model.
+   - Users can enhance the model by adjusting the forecasting period ahead. The forecast plot automatically updates when this setting is modified.
 
 ---
 
-#### v. **Recommendations**
+### v. **Recommendations**
 
 1. **Tailored Financing for SMEs**:
    - Expand targeted lending programs focusing on underserved sectors.
@@ -92,7 +93,8 @@ The key components in the dataset include:
 
 ---
 
-#### vi. **Conclusion**
+### vi. **Conclusion**
 
-The time series dashboard is a usefull tool to observe the trends of approvals by FIs according to Economic Sector. Insights derived from the dashboard can guide FIs in aligning resources to meet the BNM’s financial inclusion vision.
-Ideally, the dashboard is hoped to finally serve the underserved economic sector for better financial access in the future. 
+The time series dashboard is a valuable tool for observing trends in financing approvals by financial institutions across economic sectors. Insights derived from the dashboard can guide financial institutions in aligning resources to support BNM’s financial inclusion vision. Additionally, it is hoped that this dashboard will disseminate financing information for SMEs across various economic sectors and encourage financial institutions to provide financing solutions for underserved sectors in the near future.
+
+Disclaimer: The developer of this dashboard is not responsible for collecting the dataset, as it primarily visualises time series data derived from BNM's dataset. It should also be noted that BNM, as a monetary regulator, has the right to revise and expand the dataset. The developer is not liable for any losses resulting from the use of this dashboard.
