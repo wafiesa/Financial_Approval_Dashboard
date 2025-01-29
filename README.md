@@ -70,10 +70,12 @@ The key components in the dataset include:
 3. **Time Series**:
    - Produces time series plots from the dataset, allowing users to select an economic sector and financial institution.
    - It provides insights into trends, seasonality and random fluctuations within the time series data.
+   - Users can hover the cursor over the line plot and obtain the value of financing approval.
      
 4. **Forecasting**:
    - Displays forecast plots for a selected economic sector and financial institution using the Auto ARIMA model.
    - Users can enhance the model by adjusting the forecasting period ahead. The forecast plot automatically updates when this setting is modified.
+   - The forecast plot automatically updates when this setting is modified. The forecast plot will show 95% and 80% upper and lower confidence intervals. Simirlaly, users can hover the cursor over the line plot and obtain the value of financing approval.
 
 ---
 
