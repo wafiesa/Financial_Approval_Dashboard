@@ -57,7 +57,7 @@ The key components in the dataset include:
 
 ---
 
-#### **Financing Approvals Dashboard**
+### **Financing Approvals Dashboard**
 
 1. **About The Dashboard**:
    - This dashboard provides an overview of financing approvals for SMEs categorised by Financial Institutions (FIs).
